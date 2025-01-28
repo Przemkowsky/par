@@ -1,0 +1,77 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ćw-03 Selektory CSS</title>
+    <style>
+        * {
+            font-family: Arial;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        .emphasis {
+            font-weight: bold;
+            color: blue;
+            width: 700px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        #special {
+            background-color: yellow;
+            width: 300px;
+            padding: 15px;
+        }
+
+        p::first-of-type {
+            font-style: italic;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        section p {
+            color: green;
+        }
+
+        .block {
+            font-size: 16px;
+        }
+
+        article .emphasis {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<h1>Lorem ipsum</h1>
+
+<p>Pierwszy paragraf, który będzie pochylony</p>
+<section>
+    <p class="emphasis">Paragraf w sekcji.</p>
+    <p>Drugi paragraf w sekcji.</p>
+</section>
+
+<article>
+    <p class="emphasis">Paragraf w artykule.</p>
+    <p>Ostatni paragraf w artykule.</p>
+</article>
+
+<a href="https://www.gdansk.pl/">Link do strony miasta Gdańska</a>
+
+<br><br>
+
+<div id="special">
+    Ten div ma specjalne tło
+</div>
+
+<div class="block">
+    <p>To jest przykładowy tekst w elemencie blokowym.</p>
+</div>
+
+<hr>
+</body>
+</html>

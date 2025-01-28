@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Ćw-04 Pseudoklasy CSS</title>
+    <style>
+        h1 {
+            color: darkblue;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            font-style: italic;
+            margin: 10px 0;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: crimson;
+            width: 200px;
+            padding: 10px;
+        }
+
+        #special {
+            background-color: lightgray;
+            width: 400px;
+            padding: 20px;
+            border: 2px solid gray;
+            margin: 0 auto;
+        }
+
+        nav {
+            width: 400px;
+            margin: 20px auto;
+            padding: 10px;
+            border: 2px solid black;
+            list-style: none;
+        }
+
+        nav ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 5px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: darkgreen;
+            font-weight: normal;
+        }
+
+        a:hover {
+            color: orange;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+<h1>Pseudoklasy w CSS</h1>
+<div id="special">
+    Ten div ma specjalne tło
+    <p>Paragraf, który będzie pochylony.</p>
+</div>
+
+<nav>
+    <ul>
+        <li><a href="https://www.gdansk.pl/">Link do strony Miasta Gdańska</a></li>
+        <li><a href="https://www.sopot.pl/">Link do strony Miasta Sopotu</a></li>
+        <li><a href="https://www.gdynia.pl/">Link do strony Miasta Gdyni</a></li>
+        <li><a href="https://pruszcz-gdanski.pl/">Link do strony Miasta Pruszcza Gdańskiego</a></li>
+        <li><a href="https://www.wejherowo.pl/">Link do strony innego miasta</a></li>
+    </ul>
+</nav>
+</body>
+</html>

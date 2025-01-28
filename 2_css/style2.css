@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: gray;
+}
+
+#jeden {
+    font-family: Tahoma;
+    font-size: 1.1em;
+    color: red;
+    background-color: lightyellow;
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 20px;
+    width: 50%;
+}
+
+#dwa {
+    font-family: Tahoma;
+    font-size: 1.3em;
+    color: blue;
+    background-color: lightyellow;
+    border: 2px solid grey;
+    margin: 15px auto;
+    padding: 20px;
+    width: 50%;
+}
+
+#trzy {
+    font-family: Georgia;
+    font-size: 1.4em;
+    color: green;
+    background-color: lightyellow;
+    border: 2px solid navy;
+    margin: 10px auto;
+    padding: 20px;
+    width: 50%;
+}
+
+.content {
+    margin: auto;
+    width: 60%;
+}
